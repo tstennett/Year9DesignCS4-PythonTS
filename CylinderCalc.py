@@ -1,4 +1,5 @@
 import tkinter as tk
+import math
 
 def submit():
 	#does something once submit button is pressed
@@ -9,7 +10,9 @@ def submit():
 	v = math.pi*r*r*h
 	v = round(v,3) #rounds volume to 3 decimal places
 
-	output.insert(tk.INSERT, v) #inserts it in location
+	output.config(state="normal")
+	output.insert(tk.INSERT,v) #inserts it in location
+	output.config(state="disabled")
 
 root = tk.Tk()
 root.title("Volume of a Cylinder")
