@@ -1,10 +1,8 @@
 import os
-while(1==1):
-	print("hi")
+while(True):
+	os.system("say A-DAY")
 	
-user_input = input()
-if user_input.lower() == "end":
-	break
+
 
    
 		
