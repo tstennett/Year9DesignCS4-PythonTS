@@ -34,3 +34,10 @@ print(word+" is seriously long!")
 	#When we reach the bottom of the loop block we check the condition again. If it is true, we go back
 	#and run it again
 
+
+
+
+
+
+
+
