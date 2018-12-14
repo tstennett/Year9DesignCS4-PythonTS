@@ -1,6 +1,6 @@
 import os
 while(True):
-	os.system("say A-DAY")
+	os.system("say A day")
 	
 
 

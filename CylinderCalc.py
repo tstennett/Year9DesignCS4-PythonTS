@@ -21,6 +21,8 @@ def submit():
 root = tk.Tk()
 root.title("Volume of a Cylinder")
 
+root.configure(background = "blue")
+
 labr = tk.Label(root, text="Radius", background = "red") #makes labr a label
 labr.pack() #constructs then packs
 

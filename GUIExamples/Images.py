@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 window = tk.Tk()
 window.title("Image Example")
 window.geometry("500x368")
-window.configure(background='grey')
+window.configure(background='black')
 
 path = "image/emoji.jpg"
 
